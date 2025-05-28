@@ -4,6 +4,10 @@
 
 A curated list of projects and resources utilizing the Solana Virtual Machine (SVM).
 
+## Machine-Readable Data
+
+- [svm-networks.json](svm-networks.json) - JSON file containing structured data for all SVM networks and projects listed in this repository.
+
 ## Table of Contents
 
 - [SVM Networks and Projects](#svm-networks-and-projects)
