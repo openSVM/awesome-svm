@@ -1,320 +1,110 @@
-{
-  "networks": [
-    {
+[
+  {
+    "name": "Solana Mainnet",
+    "chain": "SOL",
+    "rpc": [
+      "https://api.mainnet-beta.solana.com",
+      "https://solana.public-rpc.com",
+      "https://rpc.ankr.com/solana"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
       "name": "Solana",
-      "description": "The original Solana blockchain with the SVM",
-      "status": "Active",
-      "links": {
-        "website": "https://solana.com",
-        "docs": "https://docs.solana.com",
-        "github": "https://github.com/solana-labs/solana",
-        "twitter": "https://twitter.com/solana"
+      "symbol": "SOL",
+      "decimals": 9
+    },
+    "features": [
+      { "name": "Proof of Stake" },
+      { "name": "Proof of History" },
+      { "name": "SVM" }
+    ],
+    "infoURL": "https://solana.com",
+    "shortName": "sol",
+    "chainId": 101,
+    "networkId": 101,
+    "icon": "solana",
+    "explorers": [
+      {
+        "name": "Solana Explorer",
+        "url": "https://explorer.solana.com",
+        "icon": "solana",
+        "standard": "SOL"
+      },
+      {
+        "name": "Solscan",
+        "url": "https://solscan.io",
+        "icon": "solscan",
+        "standard": "SOL"
       }
+    ],
+    "status": "active"
+  },
+  {
+    "name": "Solana Devnet",
+    "chain": "SOL",
+    "rpc": [
+      "https://api.devnet.solana.com"
+    ],
+    "faucets": [
+      "https://faucet.solana.com"
+    ],
+    "nativeCurrency": {
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9
     },
-    {
-      "name": "Eclipse",
-      "description": "Eclipse is building Solana on Ethereum, using the SVM to scale Ethereum.",
-      "status": "Active",
-      "links": {
-        "website": "https://www.eclipse.xyz/",
-        "docs": "https://docs.eclipse.xyz/",
-        "github": "https://github.com/eclipse-labs",
-        "twitter": "https://twitter.com/EclipseFND"
+    "features": [
+      { "name": "Proof of Stake" },
+      { "name": "Proof of History" },
+      { "name": "SVM" }
+    ],
+    "infoURL": "https://docs.solana.com/clusters#devnet",
+    "shortName": "sol-devnet",
+    "chainId": 103,
+    "networkId": 103,
+    "icon": "solana",
+    "explorers": [
+      {
+        "name": "Solana Explorer",
+        "url": "https://explorer.solana.com/?cluster=devnet",
+        "icon": "solana",
+        "standard": "SOL"
       }
+    ],
+    "status": "active"
+  },
+  {
+    "name": "Solana Testnet",
+    "chain": "SOL",
+    "rpc": [
+      "https://api.testnet.solana.com"
+    ],
+    "faucets": [
+      "https://faucet.solana.com"
+    ],
+    "nativeCurrency": {
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9
     },
-    {
-      "name": "Pythnet",
-      "description": "Oracle network built on Solana, providing real-time price data",
-      "status": "Active",
-      "links": {
-        "website": "https://pyth.network/",
-        "github": "https://github.com/pyth-network",
-        "twitter": "https://twitter.com/PythNetwork"
+    "features": [
+      { "name": "Proof of Stake" },
+      { "name": "Proof of History" },
+      { "name": "SVM" }
+    ],
+    "infoURL": "https://docs.solana.com/clusters#testnet",
+    "shortName": "sol-testnet",
+    "chainId": 102,
+    "networkId": 102,
+    "icon": "solana",
+    "explorers": [
+      {
+        "name": "Solana Explorer",
+        "url": "https://explorer.solana.com/?cluster=testnet",
+        "icon": "solana",
+        "standard": "SOL"
       }
-    },
-    {
-      "name": "Hyperlane",
-      "description": "Interoperable and scalable rollups leveraging proof aggregation and zk-rollup components",
-      "status": "Active",
-      "links": {
-        "website": "https://www.hyperlane.xyz/",
-        "github": "https://github.com/hyperlane-xyz",
-        "twitter": "https://twitter.com/Hyperlane_xyz"
-      }
-    },
-    {
-      "name": "Bonk",
-      "description": "Meme coin ecosystem built on Solana",
-      "status": "Active",
-      "links": {
-        "website": "https://www.bonkcoin.com/",
-        "twitter": "https://twitter.com/bonk_inu"
-      }
-    },
-    {
-      "name": "Airchains",
-      "description": "Framework for creating customized rollups with support for EVM, SVM, and CosmWasm",
-      "status": "Active",
-      "links": {
-        "github": "https://github.com/airchains-network"
-      }
-    },
-    {
-      "name": "SVM Wallet Maker",
-      "description": "Python script to bulk-create wallets for Solana and other SVM-based blockchains",
-      "status": "Active",
-      "links": {
-        "github": "https://github.com/svm-wallet-maker"
-      }
-    },
-    {
-      "name": "Chainlink Data Streams Solana",
-      "description": "Repository for Data Streams Solana (SVM) Related Code",
-      "status": "Active",
-      "links": {
-        "github": "https://github.com/smartcontractkit/chainlink-solana"
-      }
-    },
-    {
-      "name": "Lollipop",
-      "description": "Proposes a formal specification for implementing SVM rollups on top of the Solana Layer 1 blockchain.",
-      "status": "Development",
-      "links": {
-        "whitepaper": "https://arxiv.org/abs/2405.08882",
-        "telegram": "https://t.me/lollipopchain"
-      }
-    },
-    {
-      "name": "SOON",
-      "description": "Ethereum Layer 2 solution utilizing the Solana Virtual Machine to expedite transaction settlement.",
-      "status": "Development",
-      "links": {
-        "github": "https://github.com/soonlabs",
-        "website": "https://soon.network",
-        "telegram": "https://t.me/soon_network"
-      }
-    },
-    {
-      "name": "Termina",
-      "description": "Leverages the power of the Solana Virtual Machine to scale ecosystems with dedicated blockspace.",
-      "status": "Development",
-      "links": {
-        "website": "https://termina.technology/",
-        "docs": "https://docs.termina.network",
-        "twitter": "https://twitter.com/TerminaTech",
-        "telegram": "https://t.me/terminanetwork"
-      }
-    },
-    {
-      "name": "Nitro",
-      "description": "Optimistic rollup solution that enables Solana developers to port dApps to various ecosystems.",
-      "status": "Development",
-      "links": {
-        "telegram": "https://t.me/nitrochain",
-        "twitter": "https://twitter.com/nitro_chain"
-      }
-    },
-    {
-      "name": "Sonic SVM",
-      "description": "First chain extension on Solana, designed for games and applications, powered by the Sonic HyperGrid.",
-      "status": "Development",
-      "links": {
-        "website": "https://www.sonic.game/",
-        "docs": "https://docs.sonic.game",
-        "twitter": "https://twitter.com/sonic_svm"
-      }
-    },
-    {
-      "name": "MagicBlock",
-      "description": "Introduces Ephemeral Rollups, SVM-based runtimes enhancing performance for on-chain games.",
-      "status": "Development",
-      "links": {
-        "github": "https://github.com/magicblock-labs",
-        "website": "https://magicblock.gg"
-      }
-    },
-    {
-      "name": "Fogo",
-      "description": "High-performance Layer 1 blockchain built on the Solana Virtual Machine for real-time experiences.",
-      "status": "Development",
-      "links": {
-        "website": "https://fogo.network",
-        "whitepaper": "https://docs.fogo.network"
-      }
-    },
-    {
-      "name": "Solayer",
-      "description": "Hardware-accelerated blockchain designed to infinitely scale the SVM for high-throughput applications.",
-      "status": "Development",
-      "links": {
-        "website": "https://solayer.org",
-        "twitter": "https://twitter.com/solayerorg"
-      }
-    },
-    {
-      "name": "Mantis",
-      "description": "Aims to revolutionize cross-chain trading and MEV extraction with multi-chain intent settlement.",
-      "status": "Development",
-      "links": {
-        "github": "https://github.com/mantis-labs",
-        "website": "https://mantis.network"
-      }
-    },
-    {
-      "name": "Code",
-      "description": "Mobile app leveraging self-custodial blockchain technology for a seamless payments experience.",
-      "status": "Development",
-      "links": {
-        "github": "https://github.com/code-wallet",
-        "website": "https://getcode.com"
-      }
-    },
-    {
-      "name": "Grass",
-      "description": "Decentralized AI data collection network built on Solana, rewarding users for sharing bandwidth.",
-      "status": "Development",
-      "links": {
-        "website": "https://grass.network",
-        "twitter": "https://twitter.com/grassnetwork"
-      }
-    },
-    {
-      "name": "Atlas SVM",
-      "description": "Optimized for verifiable finance, combining traditional finance's performance with DeFi's transparency.",
-      "status": "Development",
-      "links": {
-        "website": "https://atlas.xyz"
-      }
-    },
-    {
-      "name": "Sovereign Labs",
-      "description": "Developing interoperable and scalable rollups leveraging proof aggregation and zk-rollup components.",
-      "status": "Development",
-      "links": {
-        "github": "https://github.com/sovereign-labs",
-        "website": "https://sovereign.xyz"
-      }
-    },
-    {
-      "name": "LessVM",
-      "description": "SVM implementation project by openSVM",
-      "status": "Development",
-      "links": {
-        "github": "https://github.com/openSVM/lessvm"
-      }
-    },
-    {
-      "name": "Mollusk",
-      "description": "SVM program test harness for Solana development",
-      "status": "Development",
-      "links": {
-        "github": "https://github.com/mollusk-svm"
-      }
-    },
-    {
-      "name": "Tilapia SVM",
-      "description": "Freshwater Solana (SVM) rollup built for data and compute focused applications",
-      "status": "Development",
-      "links": {
-        "github": "https://github.com/tilapia-svm"
-      }
-    },
-    {
-      "name": "HolySVM",
-      "description": "HolyC program network extension for Solana",
-      "status": "Development",
-      "links": {
-        "github": "https://github.com/holysvm"
-      }
-    },
-    {
-      "name": "Sig SVM",
-      "description": "Proof-of-concept SVM implementation for Sig validator",
-      "status": "Development",
-      "links": {
-        "github": "https://github.com/syndica/sig-svm"
-      }
-    },
-    {
-      "name": "EVM-SOL Wallet Abstraction",
-      "description": "Wallet abstraction between Ethereum and Solana virtual machines",
-      "status": "Development",
-      "links": {
-        "github": "https://github.com/evm-sol-wallet"
-      }
-    },
-    {
-      "name": "Solaxy",
-      "description": "SVM-based Layer 2 solution",
-      "status": "Development",
-      "links": {}
-    },
-    {
-      "name": "Cube Chain",
-      "description": "SVM-compatible blockchain",
-      "status": "Development",
-      "links": {}
-    },
-    {
-      "name": "JupNet",
-      "description": "Jupiter-powered SVM network",
-      "status": "Development",
-      "links": {}
-    },
-    {
-      "name": "Polygon SVM",
-      "description": "Polygon's SVM implementation",
-      "status": "Development",
-      "links": {}
-    },
-    {
-      "name": "Cascade",
-      "description": "SVM-based scaling solution",
-      "status": "Development",
-      "links": {}
-    },
-    {
-      "name": "Yona Network",
-      "description": "Bitcoin L2 using SVM technology",
-      "status": "Development",
-      "links": {}
-    },
-    {
-      "name": "SolanaVM",
-      "description": "SVM implementation",
-      "status": "Development",
-      "links": {}
-    },
-    {
-      "name": "Light Protocol",
-      "description": "Privacy-focused SVM solution",
-      "status": "Development",
-      "links": {}
-    },
-    {
-      "name": "Lulo",
-      "description": "SVM-based network",
-      "status": "Development",
-      "links": {}
-    },
-    {
-      "name": "Sphere",
-      "description": "SVM scaling solution",
-      "status": "Development",
-      "links": {}
-    },
-    {
-      "name": "Moonwalk",
-      "description": "SVM implementation",
-      "status": "Development",
-      "links": {}
-    }
-  ],
-  "metadata": {
-    "total_count": 38,
-    "active_count": 8,
-    "development_count": 30,
-    "last_updated": "2025-05-24",
-    "schema_version": "1.0"
+    ],
+    "status": "active"
   }
-}
+]
