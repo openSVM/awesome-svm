@@ -1,0 +1,624 @@
+[
+  {
+    "name": "Solana Mainnet",
+    "chain": "SOL",
+    "rpc": [
+      "https://api.mainnet-beta.solana.com",
+      "https://solana.public-rpc.com",
+      "https://rpc.ankr.com/solana"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9
+    },
+    "features": [
+      { "name": "Proof of Stake" },
+      { "name": "Proof of History" },
+      { "name": "SVM" }
+    ],
+    "infoURL": "https://solana.com",
+    "shortName": "sol",
+    "chainId": 101,
+    "networkId": 101,
+    "icon": "solana",
+    "explorers": [
+      {
+        "name": "Solana Explorer",
+        "url": "https://explorer.solana.com",
+        "icon": "solana",
+        "standard": "SOL"
+      },
+      {
+        "name": "Solscan",
+        "url": "https://solscan.io",
+        "icon": "solscan",
+        "standard": "SOL"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "name": "Solana Devnet",
+    "chain": "SOL",
+    "rpc": [
+      "https://api.devnet.solana.com"
+    ],
+    "faucets": [
+      "https://faucet.solana.com"
+    ],
+    "nativeCurrency": {
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9
+    },
+    "features": [
+      { "name": "Proof of Stake" },
+      { "name": "Proof of History" },
+      { "name": "SVM" }
+    ],
+    "infoURL": "https://docs.solana.com/clusters#devnet",
+    "shortName": "sol-devnet",
+    "chainId": 103,
+    "networkId": 103,
+    "icon": "solana",
+    "explorers": [
+      {
+        "name": "Solana Explorer",
+        "url": "https://explorer.solana.com/?cluster=devnet",
+        "icon": "solana",
+        "standard": "SOL"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "name": "Solana Testnet",
+    "chain": "SOL",
+    "rpc": [
+      "https://api.testnet.solana.com"
+    ],
+    "faucets": [
+      "https://faucet.solana.com"
+    ],
+    "nativeCurrency": {
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9
+    },
+    "features": [
+      { "name": "Proof of Stake" },
+      { "name": "Proof of History" },
+      { "name": "SVM" }
+    ],
+    "infoURL": "https://docs.solana.com/clusters#testnet",
+    "shortName": "sol-testnet",
+    "chainId": 102,
+    "networkId": 102,
+    "icon": "solana",
+    "explorers": [
+      {
+        "name": "Solana Explorer",
+        "url": "https://explorer.solana.com/?cluster=testnet",
+        "icon": "solana",
+        "standard": "SOL"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "name": "Eclipse Mainnet",
+    "chain": "ECLIPSE",
+    "rpc": [
+      "https://mainnetbeta-rpc.eclipse.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Eclipse ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Ethereum Settlement" },
+      { "name": "Celestia DA" }
+    ],
+    "infoURL": "https://eclipse.xyz",
+    "shortName": "eclipse",
+    "chainId": 256,
+    "networkId": 256,
+    "icon": "eclipse",
+    "explorers": [
+      {
+        "name": "EclipseScan",
+        "url": "https://eclipsescan.xyz",
+        "icon": "eclipse",
+        "standard": "SVM"
+      },
+      {
+        "name": "Eclipse Explorer",
+        "url": "https://explorer.eclipse.xyz",
+        "icon": "eclipse",
+        "standard": "SVM"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "name": "Eclipse Testnet",
+    "chain": "ECLIPSE",
+    "rpc": [
+      "https://testnet.dev2.eclipsenetwork.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Eclipse ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Ethereum Settlement" },
+      { "name": "Celestia DA" }
+    ],
+    "infoURL": "https://docs.eclipse.xyz",
+    "shortName": "eclipse-testnet",
+    "chainId": 17001,
+    "networkId": 17001,
+    "icon": "eclipse",
+    "explorers": [
+      {
+        "name": "EclipseScan Testnet",
+        "url": "https://eclipsescan.xyz/?cluster=testnet",
+        "icon": "eclipse",
+        "standard": "SVM"
+      },
+      {
+        "name": "Eclipse Explorer Testnet",
+        "url": "https://explorer.dev.eclipsenetwork.xyz/?cluster=testnet",
+        "icon": "eclipse",
+        "standard": "SVM"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "name": "Eclipse Devnet",
+    "chain": "ECLIPSE",
+    "rpc": [
+      "https://staging-rpc.dev2.eclipsenetwork.xyz"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Eclipse ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Ethereum Settlement" },
+      { "name": "Celestia DA" }
+    ],
+    "infoURL": "https://docs.eclipse.xyz",
+    "shortName": "eclipse-devnet",
+    "chainId": 17002,
+    "networkId": 17002,
+    "icon": "eclipse",
+    "explorers": [
+      {
+        "name": "EclipseScan Devnet",
+        "url": "https://eclipsescan.xyz/?cluster=devnet",
+        "icon": "eclipse",
+        "standard": "SVM"
+      },
+      {
+        "name": "Eclipse Explorer Devnet",
+        "url": "https://explorer.dev.eclipsenetwork.xyz",
+        "icon": "eclipse",
+        "standard": "SVM"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "name": "Pythnet",
+    "chain": "PYTHNET",
+    "rpc": [
+      "https://pythnet.rpcpool.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Pyth",
+      "symbol": "PYTH",
+      "decimals": 6
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Oracle Network" },
+      { "name": "Price Feeds" }
+    ],
+    "infoURL": "https://pyth.network",
+    "shortName": "pythnet",
+    "chainId": 252,
+    "networkId": 252,
+    "icon": "pyth",
+    "explorers": [
+      {
+        "name": "Pyth Explorer",
+        "url": "https://pyth.network/price-feeds",
+        "icon": "pyth",
+        "standard": "SVM"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "name": "SOON Network",
+    "chain": "SOON",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Soon",
+      "symbol": "SOON",
+      "decimals": 18
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Ethereum L2" },
+      { "name": "Optimistic Rollup" }
+    ],
+    "infoURL": "https://soon.network",
+    "shortName": "soon",
+    "chainId": null,
+    "networkId": null,
+    "icon": "soon",
+    "explorers": [],
+    "status": "development"
+  },
+  {
+    "name": "Sonic SVM",
+    "chain": "SONIC",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Sonic",
+      "symbol": "SONIC",
+      "decimals": 9
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Gaming" },
+      { "name": "HyperGrid" }
+    ],
+    "infoURL": "https://sonic.game",
+    "shortName": "sonic",
+    "chainId": null,
+    "networkId": null,
+    "icon": "sonic",
+    "explorers": [],
+    "status": "development"
+  },
+  {
+    "name": "Fogo Network",
+    "chain": "FOGO",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Fogo",
+      "symbol": "FOGO",
+      "decimals": 9
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "High Performance" },
+      { "name": "Real-time" }
+    ],
+    "infoURL": "https://fogo.network",
+    "shortName": "fogo",
+    "chainId": null,
+    "networkId": null,
+    "icon": "fogo",
+    "explorers": [],
+    "status": "development"
+  },
+  {
+    "name": "Termina Network",
+    "chain": "TERMINA",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Termina",
+      "symbol": "TERM",
+      "decimals": 9
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Dedicated Blockspace" },
+      { "name": "Scaling" }
+    ],
+    "infoURL": "https://termina.technology",
+    "shortName": "termina",
+    "chainId": null,
+    "networkId": null,
+    "icon": "termina",
+    "explorers": [],
+    "status": "development"
+  },
+  {
+    "name": "Nitro Chain",
+    "chain": "NITRO",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Nitro",
+      "symbol": "NITRO",
+      "decimals": 9
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Optimistic Rollup" },
+      { "name": "Cross-chain" }
+    ],
+    "infoURL": "https://nitro.xyz",
+    "shortName": "nitro",
+    "chainId": null,
+    "networkId": null,
+    "icon": "nitro",
+    "explorers": [],
+    "status": "development"
+  },
+  {
+    "name": "Solayer",
+    "chain": "SOLAYER",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Solayer",
+      "symbol": "SOL",
+      "decimals": 9
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Hardware Acceleration" },
+      { "name": "High Throughput" }
+    ],
+    "infoURL": "https://solayer.org",
+    "shortName": "solayer",
+    "chainId": null,
+    "networkId": null,
+    "icon": "solayer",
+    "explorers": [],
+    "status": "development"
+  },
+  {
+    "name": "Atlas SVM",
+    "chain": "ATLAS",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Atlas",
+      "symbol": "ATLAS",
+      "decimals": 9
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Verifiable Finance" },
+      { "name": "DeFi" }
+    ],
+    "infoURL": "https://atlas.xyz",
+    "shortName": "atlas",
+    "chainId": null,
+    "networkId": null,
+    "icon": "atlas",
+    "explorers": [],
+    "status": "development"
+  },
+  {
+    "name": "Solaxy",
+    "chain": "SOLAXY",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Solaxy",
+      "symbol": "SOLX",
+      "decimals": 9
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Layer 2" },
+      { "name": "Scaling" }
+    ],
+    "infoURL": "https://solaxy.xyz",
+    "shortName": "solaxy",
+    "chainId": null,
+    "networkId": null,
+    "icon": "solaxy",
+    "explorers": [],
+    "status": "development"
+  },
+  {
+    "name": "Cube Chain",
+    "chain": "CUBE",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Cube",
+      "symbol": "CUBE",
+      "decimals": 9
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Compatible" },
+      { "name": "Blockchain" }
+    ],
+    "infoURL": "https://cube.xyz",
+    "shortName": "cube",
+    "chainId": null,
+    "networkId": null,
+    "icon": "cube",
+    "explorers": [],
+    "status": "development"
+  },
+  {
+    "name": "JupNet",
+    "chain": "JUPNET",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Jupiter",
+      "symbol": "JUP",
+      "decimals": 6
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Jupiter Powered" },
+      { "name": "DeFi" }
+    ],
+    "infoURL": "https://jup.ag",
+    "shortName": "jupnet",
+    "chainId": null,
+    "networkId": null,
+    "icon": "jupiter",
+    "explorers": [],
+    "status": "development"
+  },
+  {
+    "name": "Polygon SVM",
+    "chain": "POLYGON-SVM",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Polygon",
+      "symbol": "POL",
+      "decimals": 18
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Polygon" },
+      { "name": "Implementation" }
+    ],
+    "infoURL": "https://polygon.technology",
+    "shortName": "polygon-svm",
+    "chainId": null,
+    "networkId": null,
+    "icon": "polygon",
+    "explorers": [],
+    "status": "development"
+  },
+  {
+    "name": "Cascade",
+    "chain": "CASCADE",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Cascade",
+      "symbol": "CASC",
+      "decimals": 9
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Scaling Solution" },
+      { "name": "Performance" }
+    ],
+    "infoURL": "https://cascade.xyz",
+    "shortName": "cascade",
+    "chainId": null,
+    "networkId": null,
+    "icon": "cascade",
+    "explorers": [],
+    "status": "development"
+  },
+  {
+    "name": "Yona Network",
+    "chain": "YONA",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Yona",
+      "symbol": "YONA",
+      "decimals": 8
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Bitcoin L2" },
+      { "name": "Cross-chain" }
+    ],
+    "infoURL": "https://yona.xyz",
+    "shortName": "yona",
+    "chainId": null,
+    "networkId": null,
+    "icon": "yona",
+    "explorers": [],
+    "status": "development"
+  },
+  {
+    "name": "Light Protocol",
+    "chain": "LIGHT",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Light",
+      "symbol": "LIGHT",
+      "decimals": 9
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Privacy" },
+      { "name": "Zero Knowledge" }
+    ],
+    "infoURL": "https://lightprotocol.com",
+    "shortName": "light",
+    "chainId": null,
+    "networkId": null,
+    "icon": "light",
+    "explorers": [],
+    "status": "development"
+  },
+  {
+    "name": "Lulo",
+    "chain": "LULO",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Lulo",
+      "symbol": "LULO",
+      "decimals": 9
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Network" },
+      { "name": "DeFi" }
+    ],
+    "infoURL": "https://lulo.fi",
+    "shortName": "lulo",
+    "chainId": null,
+    "networkId": null,
+    "icon": "lulo",
+    "explorers": [],
+    "status": "development"
+  },
+  {
+    "name": "Sphere",
+    "chain": "SPHERE",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Sphere",
+      "symbol": "SPHERE",
+      "decimals": 9
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Scaling Solution" },
+      { "name": "Performance" }
+    ],
+    "infoURL": "https://sphere.xyz",
+    "shortName": "sphere",
+    "chainId": null,
+    "networkId": null,
+    "icon": "sphere",
+    "explorers": [],
+    "status": "development"
+  }
+]
