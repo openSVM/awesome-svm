@@ -47,15 +47,12 @@ A curated list of projects and resources utilizing the Solana Virtual Machine (S
 | Solana | The original Solana blockchain with the SVM | Active | [Website](https://solana.com), [Docs](https://docs.solana.com), [GitHub](https://github.com/solana-labs/solana), [Twitter](https://twitter.com/solana) |
 | Eclipse | Eclipse is building Solana on Ethereum, using the SVM to scale Ethereum. | Active | [Website](https://www.eclipse.xyz/), [Docs](https://docs.eclipse.xyz/), [GitHub](https://github.com/eclipse-labs), [Twitter](https://twitter.com/EclipseFND) |
 | Pythnet | Oracle network built on Solana, providing real-time price data | Active | [Website](https://pyth.network/), [GitHub](https://github.com/pyth-network), [Twitter](https://twitter.com/PythNetwork) |
+| Neon EVM | EVM-compatible environment running natively on Solana | Active | [Website](https://neonevm.org/), [Docs](https://docs.neonevm.org/), [GitHub](https://github.com/neonlabsorg), [Twitter](https://twitter.com/neonlabsorg) |
 | Hyperlane | Interoperable and scalable rollups leveraging proof aggregation and zk-rollup components | Active | [Website](https://www.hyperlane.xyz/), [GitHub](https://github.com/hyperlane-xyz), [Twitter](https://twitter.com/Hyperlane_xyz) |
 | Bonk | Meme coin ecosystem built on Solana | Active | [Website](https://www.bonkcoin.com/), [Twitter](https://twitter.com/bonk_inu) |
 | Airchains | Framework for creating customized rollups with support for EVM, SVM, and CosmWasm | Active | [GitHub](https://github.com/airchains-network) |
 | SVM Wallet Maker | Python script to bulk-create wallets for Solana and other SVM-based blockchains | Active | [GitHub](https://github.com/svm-wallet-maker) |
 | Chainlink Data Streams Solana | Repository for Data Streams Solana (SVM) Related Code | Active | [GitHub](https://github.com/smartcontractkit/chainlink-solana) |
-| Drift Protocol | Decentralized perpetual futures exchange built on Solana | Active | [Website](https://drift.trade), [Docs](https://docs.drift.trade), [GitHub](https://github.com/drift-labs), [Twitter](https://twitter.com/DriftProtocol) |
-| Jupiter | Leading DEX aggregator and infrastructure provider on Solana | Active | [Website](https://jup.ag), [Docs](https://docs.jup.ag), [GitHub](https://github.com/jup-ag), [Twitter](https://twitter.com/JupiterExchange) |
-| Marginfi | Decentralized lending and borrowing protocol for Solana | Active | [Website](https://marginfi.com), [Docs](https://docs.marginfi.com), [GitHub](https://github.com/mrgnlabs), [Twitter](https://twitter.com/marginfi) |
-| Phoenix | Advanced orderbook-based DEX protocol for Solana | Active | [Website](https://phoenix.trade), [Docs](https://docs.phoenix.trade), [GitHub](https://github.com/Ellipsis-Labs), [Twitter](https://twitter.com/PhoenixTrade) |
 
 ### Development Stage Projects
 
@@ -82,13 +79,10 @@ A curated list of projects and resources utilizing the Solana Virtual Machine (S
 | EVM-SOL Wallet Abstraction | Wallet abstraction between Ethereum and Solana virtual machines | Development | [GitHub](https://github.com/evm-sol-wallet) |
 | Solaxy | SVM-based Layer 2 solution | Development | [Website](https://solaxy.io), [Twitter](https://twitter.com/Solaxy) |
 | Cube Chain | SVM-compatible blockchain | Development | N/A |
-| JupNet | Jupiter-powered SVM network | Development | N/A |
 | Polygon SVM | Polygon's SVM implementation | Development | N/A |
 | Cascade | SVM-based scaling solution | Development | N/A |
 | Yona Network | Bitcoin L2 using SVM technology | Development | N/A |
 | SolanaVM | SVM implementation | Development | N/A |
-| Light Protocol | Privacy-focused SVM solution | Development | [Website](https://lightprotocol.com), [GitHub](https://github.com/Lightprotocol), [Twitter](https://twitter.com/LightProtocol) |
-| Lulo | SVM-based network | Development | N/A |
 | Sphere | SVM scaling solution | Development | N/A |
 | Moonwalk | SVM implementation | Development | N/A |
 
