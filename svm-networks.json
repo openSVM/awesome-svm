@@ -635,5 +635,74 @@
     "icon": "sphere",
     "explorers": [],
     "status": "development"
+  },
+  {
+    "name": "Movement Labs",
+    "chain": "MOVEMENT",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Movement",
+      "symbol": "MOVE",
+      "decimals": 8
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Move VM" },
+      { "name": "Hybrid Architecture" }
+    ],
+    "infoURL": "https://movementlabs.xyz",
+    "shortName": "movement",
+    "chainId": null,
+    "networkId": null,
+    "icon": "movement",
+    "explorers": [],
+    "status": "development"
+  },
+  {
+    "name": "Turbo",
+    "chain": "TURBO",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Turbo",
+      "symbol": "TURBO",
+      "decimals": 9
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Gaming" },
+      { "name": "High Performance" }
+    ],
+    "infoURL": "https://turbo.fun",
+    "shortName": "turbo",
+    "chainId": null,
+    "networkId": null,
+    "icon": "turbo",
+    "explorers": [],
+    "status": "development"
+  },
+  {
+    "name": "Lamina1",
+    "chain": "LAMINA1",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Lamina1",
+      "symbol": "L1",
+      "decimals": 18
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Gaming" },
+      { "name": "Metaverse" }
+    ],
+    "infoURL": "https://lamina1.com",
+    "shortName": "lamina1",
+    "chainId": null,
+    "networkId": null,
+    "icon": "lamina1",
+    "explorers": [],
+    "status": "development"
   }
 ]
