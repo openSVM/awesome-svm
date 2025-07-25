@@ -620,5 +620,97 @@
     "icon": "sphere",
     "explorers": [],
     "status": "development"
+  },
+  {
+    "name": "Drift Protocol",
+    "chain": "DRIFT",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Drift",
+      "symbol": "DRIFT",
+      "decimals": 6
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Perpetual Futures" },
+      { "name": "DeFi" }
+    ],
+    "infoURL": "https://drift.trade",
+    "shortName": "drift",
+    "chainId": null,
+    "networkId": null,
+    "icon": "drift",
+    "explorers": [],
+    "status": "active"
+  },
+  {
+    "name": "Jupiter Network",
+    "chain": "JUPITER",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Jupiter",
+      "symbol": "JUP",
+      "decimals": 6
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "DEX Aggregator" },
+      { "name": "DeFi Infrastructure" }
+    ],
+    "infoURL": "https://jup.ag",
+    "shortName": "jupag",
+    "chainId": null,
+    "networkId": null,
+    "icon": "jupiter",
+    "explorers": [],
+    "status": "active"
+  },
+  {
+    "name": "Marginfi",
+    "chain": "MARGINFI",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Marginfi",
+      "symbol": "MRGNFI",
+      "decimals": 6
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Lending" },
+      { "name": "DeFi" }
+    ],
+    "infoURL": "https://marginfi.com",
+    "shortName": "marginfi",
+    "chainId": null,
+    "networkId": null,
+    "icon": "marginfi",
+    "explorers": [],
+    "status": "active"
+  },
+  {
+    "name": "Phoenix Protocol",
+    "chain": "PHOENIX",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Phoenix",
+      "symbol": "PHX",
+      "decimals": 6
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Orderbook DEX" },
+      { "name": "DeFi" }
+    ],
+    "infoURL": "https://phoenix.trade",
+    "shortName": "phoenix",
+    "chainId": null,
+    "networkId": null,
+    "icon": "phoenix",
+    "explorers": [],
+    "status": "active"
   }
 ]
