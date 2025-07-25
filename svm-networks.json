@@ -704,5 +704,38 @@
     "icon": "lamina1",
     "explorers": [],
     "status": "development"
+  },
+  {
+    "name": "AEAMCP (aea.network)",
+    "chain": "SOL",
+    "rpc": [
+      "https://api.mainnet-beta.solana.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "SVMAI Token",
+      "symbol": "SVMAI",
+      "decimals": 9
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "AI Registry" },
+      { "name": "MCP Servers" },
+      { "name": "Solana dApp" }
+    ],
+    "infoURL": "https://aea.network",
+    "shortName": "aeamcp",
+    "chainId": 101,
+    "networkId": 101,
+    "icon": "aeamcp",
+    "explorers": [
+      {
+        "name": "AEAMCP Platform",
+        "url": "https://aea.network",
+        "icon": "aeamcp",
+        "standard": "none"
+      }
+    ],
+    "status": "active"
   }
 ]

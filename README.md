@@ -41,6 +41,24 @@ A curated list of projects and resources utilizing the Solana Virtual Machine (S
   - [Latest Technical Developments](#latest-technical-developments)
   - [Emerging Ecosystems](#emerging-ecosystems)
   - [Next-Generation Tools](#next-generation-tools)
+- [OpenSVM Ecosystem](#opensvm-ecosystem)
+
+## OpenSVM Ecosystem
+
+**OpenSVM** is a comprehensive data explorer and development ecosystem for all SVM-based networks including Solana L1, L2s, rollups, and network extensions. The organization maintains over 80 public repositories focused on SVM development tools, analytics, and infrastructure.
+
+**Core Projects:**
+- **[OSVM CLI](https://github.com/openSVM/osvm-cli)** - Universal command-line tool for interacting with any SVM network
+- **[SVM Pay](https://github.com/openSVM/svm-pay)** - Global payment solution supporting all SVM-based networks
+- **[AEAMCP (aea.network)](https://aea.network)** - Decentralized AI agent and MCP server registry on Solana
+- **[LessVM](https://github.com/openSVM/lessvm)** - Lightweight SVM implementation for development and testing
+- **[Awesome SVM](https://github.com/openSVM/awesome-svm)** - This comprehensive resource directory
+
+**Organization Details:**
+- **Website**: [opensvm.com](https://opensvm.com)
+- **Founded**: January 2025
+- **Focus**: SVM ecosystem development, tooling, and data infrastructure
+- **GitHub**: [@openSVM](https://github.com/openSVM) (80+ public repositories)
 
 ## SVM Networks and Projects
 
@@ -57,6 +75,7 @@ A curated list of projects and resources utilizing the Solana Virtual Machine (S
 | Airchains | Framework for creating customized rollups with support for EVM, SVM, and CosmWasm | Active | [GitHub](https://github.com/airchains-network) |
 | SVM Wallet Maker | Python script to bulk-create wallets for Solana and other SVM-based blockchains | Active | [GitHub](https://github.com/svm-wallet-maker) |
 | Chainlink Data Streams Solana | Repository for Data Streams Solana (SVM) Related Code | Active | [GitHub](https://github.com/smartcontractkit/chainlink-solana) |
+| AEAMCP | Decentralized AI agent and MCP server registry platform on Solana, powered by $SVMAI token | Active | [Website](https://aea.network), [GitHub](https://github.com/openSVM/aeamcp) |
 
 ### Development Stage Projects
 
@@ -186,6 +205,7 @@ A curated list of current Solana validator implementations, including both prima
 | Solana Playground | Browser-based IDE for Solana smart contract development | IDE, Programs, dApps | [Website](https://beta.solpg.io), [GitHub](https://github.com/solana-playground/solana-playground) |
 | Solana Test Validator | Local test validator for Solana development and testing | CLI, Testing, Programs | [Docs](https://docs.solana.com/developing/test-validator) |
 | SPL Token CLI | Command-line tool for creating and managing SPL tokens | CLI, Programs, Tokens | [Docs](https://spl.solana.com/token) |
+| OSVM CLI | Open SVM CLI tool to interact with any SVM network with ease | CLI, Programs, SVM | [GitHub](https://github.com/openSVM/osvm-cli), [Website](https://opensvm.github.io/osvm-cli/) |
 | Poseidon | Advanced static analysis tool for SVM programs | Rust, Programs, Security | [GitHub](https://github.com/otter-sec/poseidon) |
 | SVM Studio | Visual development environment for SVM programs with drag-and-drop interface | IDE, Programs, dApps | [Website](https://svmstudio.io) |
 | Ottersec | Security-focused tooling and auditing for SVM programs | Security, Programs, Auditing | [Website](https://osec.io), [GitHub](https://github.com/otter-sec) |
@@ -225,6 +245,7 @@ A curated list of current Solana validator implementations, including both prima
 | Space Operator | Diagram what you want to build and press play | No-Code, Programs, dApps | [GitHub](https://github.com/space-operator) |
 | SolCerberus | Role-based security layer for on-chain data access | Rust, TypeScript, Programs, dApps | [GitHub](https://github.com/solcerberus/solcerberus) |
 | Solana Pay | A standard for decentralized payments on Solana | Payments, dApps | [GitHub](https://github.com/solana-labs/solana-pay) |
+| SVM Pay | Payment solution for accepting payments from any SVM-based network worldwide | TypeScript, Payments, dApps | [GitHub](https://github.com/openSVM/svm-pay), [Website](https://svm-pay.com) |
 | Bonfida | Suite of tools including domain names, DEX, and analytics for Solana | TypeScript, dApps, Tools | [Website](https://bonfida.org), [GitHub](https://github.com/Bonfida) |
 | Step Finance | Portfolio management and analytics platform for Solana | TypeScript, dApps, Analytics | [Website](https://step.finance), [GitHub](https://github.com/step-finance) |
 | Switchboard | Decentralized oracle network for Solana | Rust, Programs, Oracles | [Website](https://switchboard.xyz), [GitHub](https://github.com/switchboard-xyz) |
