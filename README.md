@@ -1,6 +1,6 @@
 # Awesome SVM
 
-*Last Updated: December 15, 2025*
+*Last Updated: July 25, 2025*
 
 A curated list of projects and resources utilizing the Solana Virtual Machine (SVM).
 
@@ -237,9 +237,7 @@ A curated list of current Solana validator implementations, including both prima
 | --- | --- | --- | --- | --- |
 | Lollipop: SVM Rollups on Solana | Irvin Steve Cardenas, Yugart Song | May 14, 2024 | [arXiv:2405.08882](https://arxiv.org/abs/2405.08882) | Formal specification for implementing Solana Virtual Machine (SVM) rollups on top of the Solana Layer 1 blockchain, including motivation, implementation details, design decisions, limitations, and preliminary results. |
 | Towards Scalable Blockchain through Rollup-as-a-Service | Various Authors | June 2024 | [arXiv](https://arxiv.org) | Research on scaling blockchain infrastructure through rollup technologies, including SVM-based solutions. |
-| SVM 2.0: Enhanced Parallel Processing Architecture | Eclipse Labs | November 2024 | [Eclipse Research](https://research.eclipse.xyz) | Technical paper on next-generation SVM architecture improvements, focusing on enhanced parallelization and throughput optimization. |
-| Cross-Chain SVM: Interoperability Framework | Movement Labs | December 2024 | [Movement Research](https://research.movementlabs.xyz) | Research on cross-chain communication protocols for SVM networks and integration with other virtual machines. |
-| Zero-Knowledge SVM Rollups: Design and Implementation | Turbo Research | January 2025 | [Turbo Labs](https://research.turbo.fun) | Analysis of ZK-rollup implementations using SVM technology, including privacy and scalability benefits. |
+| SVM in Production: Lessons from Eclipse Mainnet | Eclipse Labs | August 2024 | [Eclipse Blog](https://www.eclipse.xyz/blog/svm-in-production) | Analysis of running SVM in production environments and key insights from Eclipse's mainnet deployment. |
 
 ### Technical Articles and Whitepapers
 
@@ -259,8 +257,6 @@ A curated list of current Solana validator implementations, including both prima
 | Execution - Solana Virtual Machine (SVM) | Eclipse | March 6, 2025 | [Eclipse Documentation](https://docs.eclipse.xyz/eclipse-architecture/what-is-eclipse-mainnet/execution-solana-virtual-machine-svm) | Technical documentation on how Eclipse Mainnet runs the Solana Virtual Machine (SVM) and integrates with existing SVM tooling. |
 | Smart Contracts - EVM to SVM | Solana | 2024 | [Solana Developers](https://solana.com/developers/evm-to-svm/smart-contracts) | Guide for writing and deploying programs on the Solana blockchain, explaining the transition from EVM to SVM for developers. |
 | Developing on the Solana Virtual Machine (SVM) | Eclipse | March 25, 2024 | [Eclipse Developer Guides](https://docs.eclipse.xyz/tutorials-and-guides/developer-guides/modifying-a-solana-dapp-to-support-eclipse-chomping-glass/developing-on-the-solana-virtual-machine-svm) | Guide on developing applications for the Solana Virtual Machine, including program structure and execution environment details. |
-| SVM Development Best Practices | Solana Foundation | July 2025 | [Solana Developers](https://solana.com/developers/guides/svm-best-practices) | Best practices guide for developing on the Solana Virtual Machine, covering optimization, security, and deployment strategies. |
-| Cross-Chain SVM Development | Chainlink | June 2025 | [Chainlink Docs](https://docs.chain.link/ccip/tutorials/svm/getting-started) | Comprehensive guide for cross-chain development using SVM and CCIP integration. |
 
 ### Industry Analysis
 
@@ -269,10 +265,6 @@ A curated list of current Solana validator implementations, including both prima
 | Constructing Solana Virtual Machine (SVM) Ecosystems' Next Generation of Data Analytics | Sparsh | April 30, 2025 | [Medium](https://medium.com/@sparsh621/constructing-solana-virtual-machine-svm-ecosystems-next-generation-of-data-analytics-bde7571527fa) | Analysis of data analytics infrastructure for SVM ecosystems, highlighting projects like Helius, Solscan, and Solana FM that provide developer APIs for accessing on-chain data. |
 | An article analyzing Solana virtual machine SOON | PANews | February 26, 2025 | [PANews](https://www.panewslab.com/en/articledetails/7u70e1h56k49.html) | Exploration of SOON's SVM technology and its applications in blockchain development. |
 | SVM Track Overview: MoveVM Implementation | ChainCatcher | January 7, 2025 | [ChainCatcher](https://www.chaincatcher.com/en/article/2161319) | Overview of Eclipse as the first Layer 2 based on Solana Virtual Machine on Ethereum, combining Solana's speed with Ethereum's liquidity. |
-| The Rise of SVM Rollups and L2 Solutions | CoinDesk | July 2025 | [CoinDesk](https://coindesk.com/tech/svm-rollups-analysis) | Analysis of the growing SVM L2 ecosystem and its impact on blockchain scalability. |
-| SVM vs EVM: A Comprehensive Comparison | Messari | June 2025 | [Messari Research](https://messari.io/article/svm-vs-evm-comparison) | Detailed comparison of SVM and EVM architectures, performance metrics, and ecosystem development. |
-| The Evolution of SVM: From Solana to Multi-Chain | Delphi Digital | February 2025 | [Delphi Research](https://delphidigital.io/reports/svm-evolution-multi-chain) | Analysis of SVM expansion beyond Solana, including adoption trends and technical innovations. |
-| SVM Gaming Renaissance: How Blockchain Gaming Found Its Match | Naavik | January 2025 | [Naavik](https://naavik.co/digest/svm-gaming-renaissance) | Deep dive into SVM's advantages for gaming applications and the growing gaming ecosystem on SVM networks. |
 
 ## Learning Resources
 
@@ -360,34 +352,33 @@ A curated list of current Solana validator implementations, including both prima
 
 ## Recent SVM Innovations (2024-2025)
 
-This section highlights the most significant developments in the SVM ecosystem over the past year, showcasing cutting-edge innovations and emerging trends.
+This section highlights significant developments in the SVM ecosystem over the past year, focusing on verified projects and real innovations.
 
-### Latest Technical Developments
+### Key Technical Developments
 
-| Innovation | Description | Impact | Links |
+| Innovation | Description | Status | Links |
 | --- | --- | --- | --- |
-| **SVM 2.0 Architecture** | Next-generation SVM with enhanced parallel processing and improved throughput | 10x performance improvements in certain workloads | [Eclipse Research](https://research.eclipse.xyz/svm-2.0) |
-| **Cross-Chain SVM Bridges** | Seamless interoperability between SVM networks and other blockchain ecosystems | Enables multi-chain dApp development | [Movement Labs](https://docs.movementlabs.xyz/cross-chain) |
-| **ZK-SVM Rollups** | Zero-knowledge proof integration with SVM for enhanced privacy and scalability | Privacy-preserving transactions at scale | [Turbo Research](https://research.turbo.fun/zk-svm) |
-| **Ephemeral Rollups** | Temporary, high-performance SVM instances for gaming and real-time applications | Sub-second finality for gaming | [MagicBlock](https://docs.magicblock.gg/ephemeral-rollups) |
+| **Eclipse Mainnet Launch** | First SVM rollup on Ethereum providing Solana compatibility | Live | [Eclipse](https://eclipse.xyz) |
+| **SOON Network Development** | SVM-based layer 2 solution focusing on scalability | Testnet | [SOON](https://soo.network) |
+| **Sonic SVM Integration** | Gaming-focused SVM implementation for high-throughput applications | Testnet | [Sonic](https://sonic.game) |
+| **Neon EVM Compatibility** | EVM compatibility layer running on SVM infrastructure | Live | [Neon](https://neonevm.org) |
 
-### Emerging Ecosystems
+### Emerging Projects
 
-| Ecosystem | Focus Area | Key Innovation | Status |
+| Project | Focus Area | Innovation | Current Stage |
 | --- | --- | --- | --- |
-| **Gaming SVM Networks** | Blockchain gaming infrastructure | Ultra-low latency and high throughput for games | Active Development |
-| **DeFi-Specific SVMs** | Optimized for financial applications | MEV protection and advanced order types | Testing Phase |
-| **AI-Integrated SVMs** | Machine learning and AI workloads | On-chain AI inference and model training | Research Phase |
-| **Mobile-First SVMs** | Smartphone and IoT device compatibility | Light client architecture and efficient syncing | Development |
+| **Movement Labs** | Move + SVM Integration | Combines Move language with SVM execution | Development |
+| **Lamina1** | Gaming Infrastructure | Optimized SVM for gaming and metaverse applications | Testing |
+| **Turbo** | High-Performance Gaming | Ultra-low latency SVM for real-time gaming | Development |
 
-### Next-Generation Tools
+### Development Tools Progress
 
-| Tool Category | Recent Innovations | Benefits |
+| Tool Category | Recent Developments | Benefits |
 | --- | --- | --- |
-| **Development IDEs** | Visual programming interfaces, AI-assisted coding | 50% faster development cycles |
-| **Security Tools** | Real-time vulnerability detection, formal verification | 90% reduction in critical bugs |
-| **Performance Analysis** | Advanced profiling and optimization tools | 3x improvement in program efficiency |
-| **Cross-Chain SDKs** | Unified APIs for multi-chain development | Single codebase for multiple networks |
+| **IDE Support** | Enhanced Anchor framework, improved debugging tools | Faster development cycles |
+| **Security Tools** | Improved static analysis, audit frameworks | Better security practices |
+| **Performance Tools** | Advanced profiling, optimization guides | More efficient programs |
+| **Testing Frameworks** | Better test coverage, integration testing | Higher quality deployments |
 
 ---
 
@@ -411,4 +402,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Thanks to all the contributors who have helped to expand this list
 - Special thanks to the Solana Foundation and community for their support
-- Resource count: 250+ SVM-related resources across all categories
+- Resource count: 200+ SVM-related resources across all categories
