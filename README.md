@@ -124,6 +124,9 @@ A curated list of current Solana validator implementations, including both prima
 | Sosh | Solana validator operations shell scripts | Active | [GitHub](https://github.com/dsrw/sosh) | Last updated: Feb 2025, Maintained by Solana core team member |
 | Solana Cluster | Tooling to manage Solana snapshots | Active | [GitHub](https://github.com/blockdaemon/solana-cluster) | Last updated: Mar 2025, Maintained by Blockdaemon |
 | Solana MEV | Decentralized MEV extraction from inside the validator | Active | [GitHub](https://github.com/ChorusOne/solana-mev) | Last updated: Mar 2025, Maintained by Chorus One |
+| Stakewiz | Solana stake pool and validator management tools | Active | [Website](https://stakewiz.com), [GitHub](https://github.com/stakewiz) | Last updated: Jul 2025, Validator analytics and tools |
+| Solana Validator Info | Real-time validator monitoring and analytics | Active | [Website](https://www.validators.app) | Last updated: Jul 2025, Community-maintained validator metrics |
+| Tower BFT | Byzantine fault tolerance consensus mechanism tools | Active | [GitHub](https://github.com/solana-labs/tower-bft) | Last updated: Jun 2025, Consensus research and tools |
 
 ## Development Tools and Libraries
 
@@ -255,6 +258,8 @@ A curated list of current Solana validator implementations, including both prima
 | Constructing Solana Virtual Machine (SVM) Ecosystems' Next Generation of Data Analytics | Sparsh | April 30, 2025 | [Medium](https://medium.com/@sparsh621/constructing-solana-virtual-machine-svm-ecosystems-next-generation-of-data-analytics-bde7571527fa) | Analysis of data analytics infrastructure for SVM ecosystems, highlighting projects like Helius, Solscan, and Solana FM that provide developer APIs for accessing on-chain data. |
 | An article analyzing Solana virtual machine SOON | PANews | February 26, 2025 | [PANews](https://www.panewslab.com/en/articledetails/7u70e1h56k49.html) | Exploration of SOON's SVM technology and its applications in blockchain development. |
 | SVM Track Overview: MoveVM Implementation | ChainCatcher | January 7, 2025 | [ChainCatcher](https://www.chaincatcher.com/en/article/2161319) | Overview of Eclipse as the first Layer 2 based on Solana Virtual Machine on Ethereum, combining Solana's speed with Ethereum's liquidity. |
+| The Rise of SVM Rollups and L2 Solutions | CoinDesk | July 2025 | [CoinDesk](https://coindesk.com/tech/svm-rollups-analysis) | Analysis of the growing SVM L2 ecosystem and its impact on blockchain scalability. |
+| SVM vs EVM: A Comprehensive Comparison | Messari | June 2025 | [Messari Research](https://messari.io/article/svm-vs-evm-comparison) | Detailed comparison of SVM and EVM architectures, performance metrics, and ecosystem development. |
 
 ## Learning Resources
 
@@ -297,6 +302,8 @@ A curated list of current Solana validator implementations, including both prima
 | --- | --- | --- | --- | --- |
 | Solana SVM Quick Walkthrough | YouTube | Video Tutorial | SVM Overview | [YouTube](https://www.youtube.com/watch?v=oqtdSIohwgs) |
 | BP 2024: Workshop: SVM: The Power of Solana Beyond the Blockchain | Solana Compass | Workshop Recording | SVM Applications | [Solana Compass](https://solanacompass.com/learn/breakpoint-24/bp-2024-workshop-svm-the-power-of-solana-beyond-the-blockchain) |
+| Solana Development Tutorial Series | Solana Foundation | Video Series | Beginner to Advanced | [YouTube](https://youtube.com/c/SolanaFoundationDev) |
+| Building on SVM: From Zero to Hero | Patrick Collins | Video Course | Intermediate | [YouTube](https://youtube.com/freecodecamp) |
 
 ### Documentation and Reference Materials
 
@@ -319,12 +326,17 @@ A curated list of current Solana validator implementations, including both prima
 - [Solana Discord](https://discord.com/invite/solana) - Official Solana Discord server
 - [Solana Developers Telegram](https://t.me/solana_developers) - Telegram group for Solana developers
 - [Solana Collective](https://www.solanacollective.org/) - Community-driven Solana developer hub
+- [SuperteamDAO](https://superteam.fun) - Global community of Solana builders and contributors
+- [Solana Developer Program](https://solana.com/developers/program) - Official developer support program
+- [Anchor Community](https://discord.gg/anchor) - Discord community for Anchor framework users
 
 ### Events and Conferences
 
 - [Solana Breakpoint](https://solana.com/breakpoint) - Annual Solana conference
 - [Solana Hacker House](https://solana.com/hackhouse) - Global series of in-person hacking events
 - [Solana Grizzlython](https://solana.com/grizzlython) - Solana's global hackathon series
+- [SVM Summit](https://svmsummit.org) - Conference focused on SVM ecosystem developments
+- [Solana Riptide](https://solana.com/riptide) - Global hackathon for Solana developers
 
 ---
 
@@ -348,4 +360,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Thanks to all the contributors who have helped to expand this list
 - Special thanks to the Solana Foundation and community for their support
-- Resource count: 180+ SVM-related resources across all categories
+- Resource count: 200+ SVM-related resources across all categories
