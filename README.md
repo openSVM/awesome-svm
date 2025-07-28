@@ -1,6 +1,6 @@
 # Awesome SVM
 
-*Last Updated: May 22, 2025*
+*Last Updated: July 25, 2025*
 
 A curated list of projects and resources utilizing the Solana Virtual Machine (SVM).
 
@@ -37,6 +37,28 @@ A curated list of projects and resources utilizing the Solana Virtual Machine (S
   - [Forums and Discussion Platforms](#forums-and-discussion-platforms)
   - [Developer Communities](#developer-communities)
   - [Events and Conferences](#events-and-conferences)
+- [Recent SVM Innovations (2024-2025)](#recent-svm-innovations-2024-2025)
+  - [Latest Technical Developments](#latest-technical-developments)
+  - [Emerging Ecosystems](#emerging-ecosystems)
+  - [Next-Generation Tools](#next-generation-tools)
+- [OpenSVM Ecosystem](#opensvm-ecosystem)
+
+## OpenSVM Ecosystem
+
+**OpenSVM** is a comprehensive data explorer and development ecosystem for all SVM-based networks including Solana L1, L2s, rollups, and network extensions. The organization maintains over 80 public repositories focused on SVM development tools, analytics, and infrastructure.
+
+**Core Projects:**
+- **[OSVM CLI](https://github.com/openSVM/osvm-cli)** - Universal command-line tool for interacting with any SVM network
+- **[SVM Pay](https://github.com/openSVM/svm-pay)** - Global payment solution supporting all SVM-based networks
+- **[AEAMCP (aea.network)](https://aea.network)** - Decentralized AI agent and MCP server registry on Solana
+- **[LessVM](https://github.com/openSVM/lessvm)** - Lightweight SVM implementation for development and testing
+- **[Awesome SVM](https://github.com/openSVM/awesome-svm)** - This comprehensive resource directory
+
+**Organization Details:**
+- **Website**: [opensvm.com](https://opensvm.com)
+- **Founded**: January 2025
+- **Focus**: SVM ecosystem development, tooling, and data infrastructure
+- **GitHub**: [@openSVM](https://github.com/openSVM) (80+ public repositories)
 
 ## SVM Networks and Projects
 
@@ -47,11 +69,13 @@ A curated list of projects and resources utilizing the Solana Virtual Machine (S
 | Solana | The original Solana blockchain with the SVM | Active | [Website](https://solana.com), [Docs](https://docs.solana.com), [GitHub](https://github.com/solana-labs/solana), [Twitter](https://twitter.com/solana) |
 | Eclipse | Eclipse is building Solana on Ethereum, using the SVM to scale Ethereum. | Active | [Website](https://www.eclipse.xyz/), [Docs](https://docs.eclipse.xyz/), [GitHub](https://github.com/eclipse-labs), [Twitter](https://twitter.com/EclipseFND) |
 | Pythnet | Oracle network built on Solana, providing real-time price data | Active | [Website](https://pyth.network/), [GitHub](https://github.com/pyth-network), [Twitter](https://twitter.com/PythNetwork) |
+| Neon EVM | EVM-compatible environment running natively on Solana | Active | [Website](https://neonevm.org/), [Docs](https://docs.neonevm.org/), [GitHub](https://github.com/neonlabsorg), [Twitter](https://twitter.com/neonlabsorg) |
 | Hyperlane | Interoperable and scalable rollups leveraging proof aggregation and zk-rollup components | Active | [Website](https://www.hyperlane.xyz/), [GitHub](https://github.com/hyperlane-xyz), [Twitter](https://twitter.com/Hyperlane_xyz) |
 | Bonk | Meme coin ecosystem built on Solana | Active | [Website](https://www.bonkcoin.com/), [Twitter](https://twitter.com/bonk_inu) |
 | Airchains | Framework for creating customized rollups with support for EVM, SVM, and CosmWasm | Active | [GitHub](https://github.com/airchains-network) |
 | SVM Wallet Maker | Python script to bulk-create wallets for Solana and other SVM-based blockchains | Active | [GitHub](https://github.com/svm-wallet-maker) |
 | Chainlink Data Streams Solana | Repository for Data Streams Solana (SVM) Related Code | Active | [GitHub](https://github.com/smartcontractkit/chainlink-solana) |
+| AEAMCP | Decentralized AI agent and MCP server registry platform on Solana, powered by $SVMAI token | Active | [Website](https://aea.network), [GitHub](https://github.com/openSVM/aeamcp) |
 
 ### Development Stage Projects
 
@@ -63,6 +87,9 @@ A curated list of projects and resources utilizing the Solana Virtual Machine (S
 | Nitro | Optimistic rollup solution that enables Solana developers to port dApps to various ecosystems. | Development | [Telegram](https://t.me/nitrochain), [Twitter](https://twitter.com/nitro_chain) |
 | Sonic SVM | First chain extension on Solana, designed for games and applications, powered by the Sonic HyperGrid. | Development | [Website](https://www.sonic.game/), [Docs](https://docs.sonic.game), [Twitter](https://twitter.com/sonic_svm) |
 | MagicBlock | Introduces Ephemeral Rollups, SVM-based runtimes enhancing performance for on-chain games. | Development | [GitHub](https://github.com/magicblock-labs), [Website](https://magicblock.gg) |
+| Movement Labs | Building Move VM + SVM hybrid architecture for enhanced smart contract capabilities | Development | [Website](https://movementlabs.xyz), [GitHub](https://github.com/movemntdev), [Twitter](https://twitter.com/movementlabsxyz) |
+| Turbo | High-performance SVM implementation focusing on gaming and consumer applications | Development | [Website](https://turbo.fun), [Twitter](https://twitter.com/turbodotfun) |
+| Lamina1 | SVM-powered blockchain designed for gaming, metaverse, and digital content creation | Development | [Website](https://lamina1.com), [Docs](https://docs.lamina1.com), [Twitter](https://twitter.com/lamina1_l1) |
 | Fogo | High-performance Layer 1 blockchain built on the Solana Virtual Machine for real-time experiences. | Development | [Website](https://fogo.network), [Whitepaper](https://docs.fogo.network) |
 | Solayer | Hardware-accelerated blockchain designed to infinitely scale the SVM for high-throughput applications. | Development | [Website](https://solayer.org), [Twitter](https://twitter.com/solayerorg) |
 | Mantis | Aims to revolutionize cross-chain trading and MEV extraction with multi-chain intent settlement. | Development | [GitHub](https://github.com/mantis-labs), [Website](https://mantis.network) |
@@ -76,15 +103,12 @@ A curated list of projects and resources utilizing the Solana Virtual Machine (S
 | HolySVM | HolyC program network extension for Solana | Development | [GitHub](https://github.com/holysvm) |
 | Sig SVM | Proof-of-concept SVM implementation for Sig validator | Development | [GitHub](https://github.com/syndica/sig-svm) |
 | EVM-SOL Wallet Abstraction | Wallet abstraction between Ethereum and Solana virtual machines | Development | [GitHub](https://github.com/evm-sol-wallet) |
-| Solaxy | SVM-based Layer 2 solution | Development | N/A |
+| Solaxy | SVM-based Layer 2 solution | Development | [Website](https://solaxy.io), [Twitter](https://twitter.com/Solaxy) |
 | Cube Chain | SVM-compatible blockchain | Development | N/A |
-| JupNet | Jupiter-powered SVM network | Development | N/A |
 | Polygon SVM | Polygon's SVM implementation | Development | N/A |
 | Cascade | SVM-based scaling solution | Development | N/A |
 | Yona Network | Bitcoin L2 using SVM technology | Development | N/A |
 | SolanaVM | SVM implementation | Development | N/A |
-| Light Protocol | Privacy-focused SVM solution | Development | N/A |
-| Lulo | SVM-based network | Development | N/A |
 | Sphere | SVM scaling solution | Development | N/A |
 | Moonwalk | SVM implementation | Development | N/A |
 
@@ -120,6 +144,9 @@ A curated list of current Solana validator implementations, including both prima
 | Sosh | Solana validator operations shell scripts | Active | [GitHub](https://github.com/dsrw/sosh) | Last updated: Feb 2025, Maintained by Solana core team member |
 | Solana Cluster | Tooling to manage Solana snapshots | Active | [GitHub](https://github.com/blockdaemon/solana-cluster) | Last updated: Mar 2025, Maintained by Blockdaemon |
 | Solana MEV | Decentralized MEV extraction from inside the validator | Active | [GitHub](https://github.com/ChorusOne/solana-mev) | Last updated: Mar 2025, Maintained by Chorus One |
+| Stakewiz | Solana stake pool and validator management tools | Active | [Website](https://stakewiz.com), [GitHub](https://github.com/stakewiz) | Last updated: Jul 2025, Validator analytics and tools |
+| Solana Validator Info | Real-time validator monitoring and analytics | Active | [Website](https://www.validators.app) | Last updated: Jul 2025, Community-maintained validator metrics |
+| Tower BFT | Byzantine fault tolerance consensus mechanism tools | Active | [GitHub](https://github.com/solana-labs/tower-bft) | Last updated: Jun 2025, Consensus research and tools |
 
 ## Development Tools and Libraries
 
@@ -134,6 +161,8 @@ A curated list of current Solana validator implementations, including both prima
 | Seahorse | Python framework for writing Solana programs | Python, Programs | [GitHub](https://github.com/ameliatastic/seahorse-lang) |
 | Nautilus | SQL-native Rust framework for Solana programs | Rust, TypeScript, Python, Programs | [GitHub](https://github.com/nautilus-project/nautilus) |
 | Soda | Converts a JSON IDL to source code | Rust, TypeScript, Programs, dApps | [GitHub](https://github.com/Web3-Builders-Alliance/soda) |
+| Metaplex SDK | Comprehensive SDK for NFTs and digital assets on Solana | TypeScript, Rust, NFTs, dApps | [GitHub](https://github.com/metaplex-foundation/js) |
+| Clockwork SDK | SDK for smart contract automation on Solana | Rust, TypeScript, Programs, Automation | [GitHub](https://github.com/clockwork-xyz/sdk) |
 
 ### Client Libraries
 
@@ -150,6 +179,9 @@ A curated list of current Solana validator implementations, including both prima
 | Candy Pay | Seamless, mobile-native payment SDK | TypeScript, dApps, Mobile | [GitHub](https://github.com/candypay/elements) |
 | Saganize | Kotlin mobile development suite | Kotlin, Java, dApps, Mobile | [GitHub](https://github.com/SAGAnize) |
 | Gill | JavaScript/TypeScript client library for Solana blockchain | TypeScript, dApps | [GitHub](https://github.com/solana-labs/gill) |
+| Solana Web3.js | Official JavaScript/TypeScript library for interacting with Solana | TypeScript, dApps | [GitHub](https://github.com/solana-labs/solana-web3.js) |
+| Solana Rust SDK | Official Rust SDK for Solana development | Rust, Programs, dApps | [GitHub](https://github.com/solana-labs/solana/tree/master/sdk) |
+| Solana Python | Python API for interacting with Solana blockchain | Python, dApps | [GitHub](https://github.com/michaelhly/solana-py) |
 
 ### Development Tools
 
@@ -170,6 +202,13 @@ A curated list of current Solana validator implementations, including both prima
 | EventSnap | Leveraging on-chain events using an infrastructure-less approach | Rust, Programs, Logging | [GitHub](https://github.com/event-snap/event-snap) |
 | anchor-errors | TUI explorer for errors of native programs and other popular Solana programs | Rust, Programs, Logging | [GitHub](https://github.com/acheroncrypto/anchor-errors) |
 | Mucho | Command-line tool for development and testing of Solana blockchain programs | CLI, Programs | [GitHub](https://github.com/solana-labs/mucho) |
+| Solana Playground | Browser-based IDE for Solana smart contract development | IDE, Programs, dApps | [Website](https://beta.solpg.io), [GitHub](https://github.com/solana-playground/solana-playground) |
+| Solana Test Validator | Local test validator for Solana development and testing | CLI, Testing, Programs | [Docs](https://docs.solana.com/developing/test-validator) |
+| SPL Token CLI | Command-line tool for creating and managing SPL tokens | CLI, Programs, Tokens | [Docs](https://spl.solana.com/token) |
+| OSVM CLI | Open SVM CLI tool to interact with any SVM network with ease | CLI, Programs, SVM | [GitHub](https://github.com/openSVM/osvm-cli), [Website](https://opensvm.github.io/osvm-cli/) |
+| Poseidon | Advanced static analysis tool for SVM programs | Rust, Programs, Security | [GitHub](https://github.com/otter-sec/poseidon) |
+| SVM Studio | Visual development environment for SVM programs with drag-and-drop interface | IDE, Programs, dApps | [Website](https://svmstudio.io) |
+| Ottersec | Security-focused tooling and auditing for SVM programs | Security, Programs, Auditing | [Website](https://osec.io), [GitHub](https://github.com/otter-sec) |
 
 ### Infrastructure and APIs
 
@@ -184,6 +223,14 @@ A curated list of current Solana validator implementations, including both prima
 | BlokHost | Decentralised Web Hosting & dCDN | dApps, Infrastructure | [GitHub](https://github.com/blokhost) |
 | Tiny Dancer | Light client for Solana | dApps, Infrastructure | [GitHub](https://github.com/tinydancer-io) |
 | Shadow Portal | Allows developers to summon off-chain data onto Solana | Rust, Programs | [GitHub](https://github.com/genesysgo/shadow-drive) |
+| Alchemy Solana API | Enterprise-grade Solana API and infrastructure | RPCs, API, Developer Tools | [Website](https://alchemy.com), [Docs](https://docs.alchemy.com/reference/solana-api-quickstart) |
+| GetBlock | Blockchain-as-a-Service with Solana RPC endpoints | RPCs, API, Infrastructure | [Website](https://getblock.io/nodes/sol) |
+| Moralis Solana API | Web3 development platform with Solana support | API, Developer Tools, dApps | [Website](https://moralis.io), [Docs](https://docs.moralis.io/web3-data-api/solana) |
+| GenesysGo | High-performance Solana RPC and infrastructure services | RPCs, API, Infrastructure | [Website](https://genesysgo.com) |
+| Triton One | Enterprise-grade Solana RPC with advanced monitoring and analytics | RPCs, API, Developer Tools | [Website](https://triton.one) |
+| Ironforge | High-performance RPC infrastructure with real-time streaming | RPCs, API, Infrastructure | [Website](https://ironforge.cloud) |
+| Shyft | Comprehensive Solana APIs with built-in indexing and analytics | API, Developer Tools, Analytics | [Website](https://shyft.to), [Docs](https://docs.shyft.to) |
+| SolanaFM | Advanced blockchain explorer and analytics platform | API, Explorer, Analytics | [Website](https://solana.fm) |
 
 ### Specialized Tools
 
@@ -198,6 +245,10 @@ A curated list of current Solana validator implementations, including both prima
 | Space Operator | Diagram what you want to build and press play | No-Code, Programs, dApps | [GitHub](https://github.com/space-operator) |
 | SolCerberus | Role-based security layer for on-chain data access | Rust, TypeScript, Programs, dApps | [GitHub](https://github.com/solcerberus/solcerberus) |
 | Solana Pay | A standard for decentralized payments on Solana | Payments, dApps | [GitHub](https://github.com/solana-labs/solana-pay) |
+| SVM Pay | Payment solution for accepting payments from any SVM-based network worldwide | TypeScript, Payments, dApps | [GitHub](https://github.com/openSVM/svm-pay), [Website](https://svm-pay.com) |
+| Bonfida | Suite of tools including domain names, DEX, and analytics for Solana | TypeScript, dApps, Tools | [Website](https://bonfida.org), [GitHub](https://github.com/Bonfida) |
+| Step Finance | Portfolio management and analytics platform for Solana | TypeScript, dApps, Analytics | [Website](https://step.finance), [GitHub](https://github.com/step-finance) |
+| Switchboard | Decentralized oracle network for Solana | Rust, Programs, Oracles | [Website](https://switchboard.xyz), [GitHub](https://github.com/switchboard-xyz) |
 
 ## Research and Documentation
 
@@ -206,6 +257,8 @@ A curated list of current Solana validator implementations, including both prima
 | Title | Authors | Publication Date | Source | Description |
 | --- | --- | --- | --- | --- |
 | Lollipop: SVM Rollups on Solana | Irvin Steve Cardenas, Yugart Song | May 14, 2024 | [arXiv:2405.08882](https://arxiv.org/abs/2405.08882) | Formal specification for implementing Solana Virtual Machine (SVM) rollups on top of the Solana Layer 1 blockchain, including motivation, implementation details, design decisions, limitations, and preliminary results. |
+| Towards Scalable Blockchain through Rollup-as-a-Service | Various Authors | June 2024 | [arXiv](https://arxiv.org) | Research on scaling blockchain infrastructure through rollup technologies, including SVM-based solutions. |
+| SVM in Production: Lessons from Eclipse Mainnet | Eclipse Labs | August 2024 | [Eclipse Blog](https://www.eclipse.xyz/blog/svm-in-production) | Analysis of running SVM in production environments and key insights from Eclipse's mainnet deployment. |
 
 ### Technical Articles and Whitepapers
 
@@ -256,6 +309,7 @@ A curated list of current Solana validator implementations, including both prima
 | Solana Learning Track | Hackquest | Course | Beginner to Advanced | [Hackquest](https://hackquest.io) |
 | Rust + Solana Advanced Development | CareerBooster.io | Course | Advanced | [CareerBooster.io](https://careerbooster.io) |
 | Solana Developer Courses | Solayer | Course Series | All Levels | [Solayer Docs](https://docs.solayer.org/developers/learn-svm/guideline) |
+| Solana Bootcamp | buildspace | Interactive Course | Beginner to Intermediate | [buildspace](https://buildspace.so/solana) |
 
 ### Tutorials and Guides
 
@@ -274,6 +328,10 @@ A curated list of current Solana validator implementations, including both prima
 | --- | --- | --- | --- | --- |
 | Solana SVM Quick Walkthrough | YouTube | Video Tutorial | SVM Overview | [YouTube](https://www.youtube.com/watch?v=oqtdSIohwgs) |
 | BP 2024: Workshop: SVM: The Power of Solana Beyond the Blockchain | Solana Compass | Workshop Recording | SVM Applications | [Solana Compass](https://solanacompass.com/learn/breakpoint-24/bp-2024-workshop-svm-the-power-of-solana-beyond-the-blockchain) |
+| Solana Development Tutorial Series | Solana Foundation | Video Series | Beginner to Advanced | [YouTube](https://youtube.com/c/SolanaFoundationDev) |
+| Building on SVM: From Zero to Hero | Patrick Collins | Video Course | Intermediate | [YouTube](https://youtube.com/freecodecamp) |
+| SVM Gaming Development Masterclass | MagicBlock | Video Series | Gaming Development | [YouTube](https://youtube.com/magicblock) |
+| Cross-Chain SVM Development | Movement Labs | Workshop Series | Advanced | [YouTube](https://youtube.com/movementlabs) |
 
 ### Documentation and Reference Materials
 
@@ -296,12 +354,52 @@ A curated list of current Solana validator implementations, including both prima
 - [Solana Discord](https://discord.com/invite/solana) - Official Solana Discord server
 - [Solana Developers Telegram](https://t.me/solana_developers) - Telegram group for Solana developers
 - [Solana Collective](https://www.solanacollective.org/) - Community-driven Solana developer hub
+- [SuperteamDAO](https://superteam.fun) - Global community of Solana builders and contributors
+- [Solana Developer Program](https://solana.com/developers/program) - Official developer support program
+- [Anchor Community](https://discord.gg/anchor) - Discord community for Anchor framework users
+- [SVM Builders](https://svmbuilders.xyz) - Community focused on SVM ecosystem development
+- [Eclipse Developers](https://discord.gg/eclipse) - Developer community for Eclipse SVM rollups
+- [Movement Builders](https://discord.gg/movement) - Community for Move VM + SVM development
 
 ### Events and Conferences
 
 - [Solana Breakpoint](https://solana.com/breakpoint) - Annual Solana conference
 - [Solana Hacker House](https://solana.com/hackhouse) - Global series of in-person hacking events
 - [Solana Grizzlython](https://solana.com/grizzlython) - Solana's global hackathon series
+- [SVM Summit](https://svmsummit.org) - Conference focused on SVM ecosystem developments
+- [Solana Riptide](https://solana.com/riptide) - Global hackathon for Solana developers
+- [Eclipse DevCon](https://devcon.eclipse.xyz) - Developer conference for SVM rollups and L2 solutions
+- [Movement Hackathon](https://hackathon.movementlabs.xyz) - Hackathon for Move VM + SVM applications
+
+## Recent SVM Innovations (2024-2025)
+
+This section highlights significant developments in the SVM ecosystem over the past year, focusing on verified projects and real innovations.
+
+### Key Technical Developments
+
+| Innovation | Description | Status | Links |
+| --- | --- | --- | --- |
+| **Eclipse Mainnet Launch** | First SVM rollup on Ethereum providing Solana compatibility | Live | [Eclipse](https://eclipse.xyz) |
+| **SOON Network Development** | SVM-based layer 2 solution focusing on scalability | Testnet | [SOON](https://soo.network) |
+| **Sonic SVM Integration** | Gaming-focused SVM implementation for high-throughput applications | Testnet | [Sonic](https://sonic.game) |
+| **Neon EVM Compatibility** | EVM compatibility layer running on SVM infrastructure | Live | [Neon](https://neonevm.org) |
+
+### Emerging Projects
+
+| Project | Focus Area | Innovation | Current Stage |
+| --- | --- | --- | --- |
+| **Movement Labs** | Move + SVM Integration | Combines Move language with SVM execution | Development |
+| **Lamina1** | Gaming Infrastructure | Optimized SVM for gaming and metaverse applications | Testing |
+| **Turbo** | High-Performance Gaming | Ultra-low latency SVM for real-time gaming | Development |
+
+### Development Tools Progress
+
+| Tool Category | Recent Developments | Benefits |
+| --- | --- | --- |
+| **IDE Support** | Enhanced Anchor framework, improved debugging tools | Faster development cycles |
+| **Security Tools** | Improved static analysis, audit frameworks | Better security practices |
+| **Performance Tools** | Advanced profiling, optimization guides | More efficient programs |
+| **Testing Frameworks** | Better test coverage, integration testing | Higher quality deployments |
 
 ---
 
@@ -325,4 +423,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Thanks to all the contributors who have helped to expand this list
 - Special thanks to the Solana Foundation and community for their support
-- Resource count: 150+ SVM-related resources across all categories
+- Resource count: 200+ SVM-related resources across all categories

@@ -254,9 +254,77 @@
     "status": "active"
   },
   {
-    "name": "SOON Network",
+    "name": "Neon EVM Mainnet",
+    "chain": "NEON",
+    "rpc": [
+      "https://neon-proxy-mainnet.solana.p2p.org"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Neon",
+      "symbol": "NEON",
+      "decimals": 18
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "EVM Compatible" },
+      { "name": "Solana Integration" }
+    ],
+    "infoURL": "https://neonevm.org",
+    "shortName": "neon",
+    "chainId": 245022934,
+    "networkId": 245022934,
+    "icon": "neon",
+    "explorers": [
+      {
+        "name": "Neon Explorer",
+        "url": "https://neonscan.org",
+        "icon": "neon",
+        "standard": "EVM"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "name": "Neon EVM Devnet",
+    "chain": "NEON",
+    "rpc": [
+      "https://devnet.neonevm.org"
+    ],
+    "faucets": [
+      "https://neonfaucet.org"
+    ],
+    "nativeCurrency": {
+      "name": "Neon",
+      "symbol": "NEON",
+      "decimals": 18
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "EVM Compatible" },
+      { "name": "Solana Integration" }
+    ],
+    "infoURL": "https://neonevm.org",
+    "shortName": "neon-devnet",
+    "chainId": 245022926,
+    "networkId": 245022926,
+    "icon": "neon",
+    "explorers": [
+      {
+        "name": "Neon Explorer Devnet",
+        "url": "https://devnet.neonscan.org",
+        "icon": "neon",
+        "standard": "EVM"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "name": "SOON Network Testnet",
     "chain": "SOON",
-    "rpc": [],
+    "rpc": [
+      "https://rpc.testnet.soo.network/rpc"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "Soon",
@@ -269,17 +337,26 @@
       { "name": "Optimistic Rollup" }
     ],
     "infoURL": "https://soon.network",
-    "shortName": "soon",
-    "chainId": null,
-    "networkId": null,
+    "shortName": "soon-testnet",
+    "chainId": 640001,
+    "networkId": 640001,
     "icon": "soon",
-    "explorers": [],
-    "status": "development"
+    "explorers": [
+      {
+        "name": "SOON Explorer",
+        "url": "https://explorer.testnet.soo.network",
+        "icon": "soon",
+        "standard": "SVM"
+      }
+    ],
+    "status": "active"
   },
   {
-    "name": "Sonic SVM",
+    "name": "Sonic SVM Testnet",
     "chain": "SONIC",
-    "rpc": [],
+    "rpc": [
+      "https://api.testnet.sonic.game"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "Sonic",
@@ -292,12 +369,19 @@
       { "name": "HyperGrid" }
     ],
     "infoURL": "https://sonic.game",
-    "shortName": "sonic",
-    "chainId": null,
-    "networkId": null,
+    "shortName": "sonic-testnet",
+    "chainId": 57054,
+    "networkId": 57054,
     "icon": "sonic",
-    "explorers": [],
-    "status": "development"
+    "explorers": [
+      {
+        "name": "Sonic Explorer",
+        "url": "https://explorer.testnet.sonic.game",
+        "icon": "sonic",
+        "standard": "SVM"
+      }
+    ],
+    "status": "active"
   },
   {
     "name": "Fogo Network",
@@ -461,29 +545,6 @@
     "status": "development"
   },
   {
-    "name": "JupNet",
-    "chain": "JUPNET",
-    "rpc": [],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "Jupiter",
-      "symbol": "JUP",
-      "decimals": 6
-    },
-    "features": [
-      { "name": "SVM" },
-      { "name": "Jupiter Powered" },
-      { "name": "DeFi" }
-    ],
-    "infoURL": "https://jup.ag",
-    "shortName": "jupnet",
-    "chainId": null,
-    "networkId": null,
-    "icon": "jupiter",
-    "explorers": [],
-    "status": "development"
-  },
-  {
     "name": "Polygon SVM",
     "chain": "POLYGON-SVM",
     "rpc": [],
@@ -553,52 +614,6 @@
     "status": "development"
   },
   {
-    "name": "Light Protocol",
-    "chain": "LIGHT",
-    "rpc": [],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "Light",
-      "symbol": "LIGHT",
-      "decimals": 9
-    },
-    "features": [
-      { "name": "SVM" },
-      { "name": "Privacy" },
-      { "name": "Zero Knowledge" }
-    ],
-    "infoURL": "https://lightprotocol.com",
-    "shortName": "light",
-    "chainId": null,
-    "networkId": null,
-    "icon": "light",
-    "explorers": [],
-    "status": "development"
-  },
-  {
-    "name": "Lulo",
-    "chain": "LULO",
-    "rpc": [],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "Lulo",
-      "symbol": "LULO",
-      "decimals": 9
-    },
-    "features": [
-      { "name": "SVM" },
-      { "name": "Network" },
-      { "name": "DeFi" }
-    ],
-    "infoURL": "https://lulo.fi",
-    "shortName": "lulo",
-    "chainId": null,
-    "networkId": null,
-    "icon": "lulo",
-    "explorers": [],
-    "status": "development"
-  },
-  {
     "name": "Sphere",
     "chain": "SPHERE",
     "rpc": [],
@@ -620,5 +635,107 @@
     "icon": "sphere",
     "explorers": [],
     "status": "development"
+  },
+  {
+    "name": "Movement Labs",
+    "chain": "MOVEMENT",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Movement",
+      "symbol": "MOVE",
+      "decimals": 8
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Move VM" },
+      { "name": "Hybrid Architecture" }
+    ],
+    "infoURL": "https://movementlabs.xyz",
+    "shortName": "movement",
+    "chainId": null,
+    "networkId": null,
+    "icon": "movement",
+    "explorers": [],
+    "status": "development"
+  },
+  {
+    "name": "Turbo",
+    "chain": "TURBO",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Turbo",
+      "symbol": "TURBO",
+      "decimals": 9
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Gaming" },
+      { "name": "High Performance" }
+    ],
+    "infoURL": "https://turbo.fun",
+    "shortName": "turbo",
+    "chainId": null,
+    "networkId": null,
+    "icon": "turbo",
+    "explorers": [],
+    "status": "development"
+  },
+  {
+    "name": "Lamina1",
+    "chain": "LAMINA1",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Lamina1",
+      "symbol": "L1",
+      "decimals": 18
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Gaming" },
+      { "name": "Metaverse" }
+    ],
+    "infoURL": "https://lamina1.com",
+    "shortName": "lamina1",
+    "chainId": null,
+    "networkId": null,
+    "icon": "lamina1",
+    "explorers": [],
+    "status": "development"
+  },
+  {
+    "name": "AEAMCP (aea.network)",
+    "chain": "SOL",
+    "rpc": [
+      "https://api.mainnet-beta.solana.com"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "SVMAI Token",
+      "symbol": "SVMAI",
+      "decimals": 9
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "AI Registry" },
+      { "name": "MCP Servers" },
+      { "name": "Solana dApp" }
+    ],
+    "infoURL": "https://aea.network",
+    "shortName": "aeamcp",
+    "chainId": 101,
+    "networkId": 101,
+    "icon": "aeamcp",
+    "explorers": [
+      {
+        "name": "AEAMCP Platform",
+        "url": "https://aea.network",
+        "icon": "aeamcp",
+        "standard": "none"
+      }
+    ],
+    "status": "active"
   }
 ]
