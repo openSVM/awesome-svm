@@ -231,6 +231,7 @@ A curated list of current Solana validator implementations, including both prima
 | Ironforge | High-performance RPC infrastructure with real-time streaming | RPCs, API, Infrastructure | [Website](https://ironforge.cloud) |
 | Shyft | Comprehensive Solana APIs with built-in indexing and analytics | API, Developer Tools, Analytics | [Website](https://shyft.to), [Docs](https://docs.shyft.to) |
 | SolanaFM | Advanced blockchain explorer and analytics platform | API, Explorer, Analytics | [Website](https://solana.fm) |
+| MadeOnSol | Real-time Solana data and intelligence API: KOL activity, wallet, token and deployer analytics, and normalized DEX data via REST, WebSockets, webhooks, SDKs and MCP | API, Data, Analytics, MCP | [Website](https://madeonsol.com/solana-api), [Docs](https://madeonsol.com/api-docs), [GitHub](https://github.com/MadeOnSol) |
 
 ### Specialized Tools
 
