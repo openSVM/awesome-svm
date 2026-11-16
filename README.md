@@ -125,14 +125,14 @@ A curated list of current Solana validator implementations, including both prima
 | Sig | [syndica.io/sig](https://syndica.io/sig) | [@Syndica\_io](https://twitter.com/Syndica_io) | [Syndica/sig](https://github.com/Syndica/sig) | Syndica |
 | Firedancer | [docs.firedancer.io](https://docs.firedancer.io) | [@jump\_firedancer](https://twitter.com/jump_firedancer) | [firedancer-io/firedancer](https://github.com/firedancer-io/firedancer) | Jump Crypto |
 | Paladin | [docs.paladin.one](https://docs.paladin.one) | [@paladin\_solana](https://twitter.com/paladin_solana) | [paladin-bladesmith/paladin-solana](https://github.com/paladin-bladesmith/paladin-solana) | Paladin team \[Modified from Jito-Solana\] |
-| Machine | [machinechain.netlify.app](https://machinechain.netlify.app/) | [@yourmememachine](https://twitter.com/yourmememachine) | [yourmememachine/mememachine](https://github.com/yourmememachine/mememachine) | Independent (solo) \[Agave 2.3.13 fork\] |
+| Machine (independent L1) | [machinechain.netlify.app](https://machinechain.netlify.app/) | [@yourmememachine](https://twitter.com/yourmememachine) | [yourmememachine/mememachine](https://github.com/yourmememachine/mememachine) | Independent (solo) \[Agave 2.3.13 fork\] |
 
 *   **Agave**: Primary client focused on reliability and network uptime, successor to the original Solana Labs validator.
 *   **Jito-Solana**: Adds MEV capabilities to enhance validator revenue and reduce network spam.
 *   **Sig**: Focuses on RPS optimization for improved user experience, written in Zig.
 *   **Firedancer**: High-performance client in C++, aimed at boosting throughput and resilience.
 *   **Paladin**: Modified version of Jito-Solana, enhancing MEV protection and block rewards for validators.
-  *   **Machine**: An independent L1 forked from Agave 2.3.13 with its own genesis and native gas token, adding LaunchGuard, a chain-native anti-rug launch standard; currently a local single-node testnet (voting/finalizing), not a Solana mainnet client.
+*   **Machine**: An independent L1 forked from Agave 2.3.13 with its own genesis and native gas token, adding LaunchGuard, a chain-native anti-rug launch standard; currently a local single-node testnet (voting/finalizing), not a Solana mainnet client.
 
 ### Validator Tools and Resources
 
