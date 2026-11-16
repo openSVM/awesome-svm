@@ -736,6 +736,29 @@
         "standard": "none"
       }
     ],
-    "status": "active"
+        "status": "active"
+  },
+  {
+    "name": "Machine",
+    "chain": "MACHINE",
+    "rpc": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Machine",
+      "symbol": "MACHINE",
+      "decimals": 9
+    },
+    "features": [
+      { "name": "SVM" },
+      { "name": "Proof of Stake" },
+      { "name": "Proof of History" }
+    ],
+    "infoURL": "https://machinechain.netlify.app/",
+    "shortName": "machine",
+    "chainId": null,
+    "networkId": null,
+    "icon": "machine",
+    "explorers": [],
+    "status": "development"
   }
 ]
