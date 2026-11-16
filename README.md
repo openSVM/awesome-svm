@@ -124,7 +124,7 @@ A curated list of current Solana validator implementations, including both prima
 | Jito-Solana | [jito.wtf](https://jito.wtf) | [@jito\_labs](https://twitter.com/jito_labs) | [jito-foundation/jito-solana](https://github.com/jito-foundation/jito-solana) | Jito Labs |
 | Sig | [syndica.io/sig](https://syndica.io/sig) | [@Syndica\_io](https://twitter.com/Syndica_io) | [Syndica/sig](https://github.com/Syndica/sig) | Syndica |
 | Firedancer | [docs.firedancer.io](https://docs.firedancer.io) | [@jump\_firedancer](https://twitter.com/jump_firedancer) | [firedancer-io/firedancer](https://github.com/firedancer-io/firedancer) | Jump Crypto |
-| Paladin | [docs.paladin.one](https://docs.paladin.one) | [@paladin\_solana](https://twitter.com/paladin_solana) | [paladin-bladesmith/paladin-solana](https://github.com/paladin-bladesmith/paladin-solana) | Paladin team\[Modified from Jito-Solana\] |
+| Paladin | [docs.paladin.one](https://docs.paladin.one) | [@paladin\_solana](https://twitter.com/paladin_solana) | [paladin-bladesmith/paladin-solana](https://github.com/paladin-bladesmith/paladin-solana) | Paladin team \[Modified from Jito-Solana\] |
 | Machine | [machinechain.netlify.app](https://machinechain.netlify.app/) | [@yourmememachine](https://twitter.com/yourmememachine) | [yourmememachine/mememachine](https://github.com/yourmememachine/mememachine) | Independent (solo) \[Agave 2.3.13 fork\] |
 
 *   **Agave**: Primary client focused on reliability and network uptime, successor to the original Solana Labs validator.
